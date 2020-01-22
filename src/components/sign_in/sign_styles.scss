@@ -1,0 +1,17 @@
+.sign-in{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+
+
+  .title {
+    margin: 10px 0  ;
+  }
+}
+
+.cusbuttons{
+  text-align: left;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
