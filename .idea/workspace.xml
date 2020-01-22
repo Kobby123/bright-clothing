@@ -2,76 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f147712-ffc3-4863-a18e-4362051bb733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/11.2 shopping-bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/crown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/store.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropddown/cart_dropdown.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart-dropddown/cart_dropdown.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart_icon/cart_icon.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart_icon/cart_icon.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart_item/cart_item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart_item/cart_item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout_item/checkout_item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout_item/checkout_item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection_item/collection_item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection_item/collection_item_styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection_preview/collection_preview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collection_preview/collection_preview.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collections_overview/collections_overview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collections_overview/collections_overview.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/custom_button/custom_button.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/custom_button/custom_button_styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/directory-menu/directory-menu.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/directory-menu/directory-menu.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-input/form_input.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-input/form_input.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu_item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu_item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign_in/sign_in.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign_in/sign_styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign_up/sign_up.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign_up/sign_up.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stripe_button/stripe_button.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stripe_button/stripe_button.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkoutPage.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/hompage/homepage.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/hompage/homepage.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/shoppage/shop.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/shoppage/shop.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/sign_in_and_sign_up/sign_in_and_sign_up.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/sign_in_and_sign_up/sign_in_and_sign_up.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/root_reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shopdata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user_reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,6 +101,7 @@
       <workItem from="1578990967239" duration="21616000" />
       <workItem from="1579507566571" duration="15855000" />
       <workItem from="1579598828074" duration="11709000" />
+      <workItem from="1579687820834" duration="615000" />
     </task>
     <servers />
   </component>
