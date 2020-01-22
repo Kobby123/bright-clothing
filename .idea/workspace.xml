@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f147712-ffc3-4863-a18e-4362051bb733" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +101,7 @@
       <workItem from="1578990967239" duration="21616000" />
       <workItem from="1579507566571" duration="15855000" />
       <workItem from="1579598828074" duration="11709000" />
-      <workItem from="1579687820834" duration="615000" />
+      <workItem from="1579687820834" duration="923000" />
     </task>
     <servers />
   </component>
