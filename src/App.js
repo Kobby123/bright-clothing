@@ -18,33 +18,34 @@ import {selectCurrentUser} from "./redux/user/user.selectors";
 
 
 
+
 class App extends React.Component{
 
 
 
     unsubscribeFromAuth = null;
     componentDidMount() {
+
         const {setCurrentUser} = this.props;
 
-        this.unsubscribeFromAuth = auth.onAuthStateChanged(  async authUser =>
-        {
+        this.unsubscribeFromAuth = auth.onAuthStateChanged(  async authUser => {
+
             if(authUser){
                 const userRef = await createUserProfileDocument(authUser);
+
                 //check if the user document has updated by using the snapshot at that reference
                 userRef.onSnapshot(snapShot => {
-                    setCurrentUser(
-                            {
-                                id : snapShot.id,
-                                ...snapShot.data()
-                             }
-                    );
-
+                    setCurrentUser({id : snapShot.id, ...snapShot.data()});
                 });
-            }else {
-                setCurrentUser(authUser);
+
             }
-        })
-    }
+
+
+            setCurrentUser(authUser);
+
+
+        }); //End of onAuthStateChanged;
+    }//end of componentDidMount
 
 
 
