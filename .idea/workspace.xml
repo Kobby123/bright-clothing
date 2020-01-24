@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f147712-ffc3-4863-a18e-4362051bb733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/collection_item/collection_item.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/custom_button/custom_button.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/hompage/homepage.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection_item/collection_item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection_item/collection_item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom_button/custom_button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom_button/custom_button.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/hompage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hompage/homepage.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shoppage/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shoppage/shop.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +103,7 @@
       <workItem from="1579598828074" duration="11709000" />
       <workItem from="1579687820834" duration="4276000" />
       <workItem from="1579703565023" duration="618000" />
-      <workItem from="1579770466082" duration="14532000" />
+      <workItem from="1579770466082" duration="15120000" />
     </task>
     <servers />
   </component>
