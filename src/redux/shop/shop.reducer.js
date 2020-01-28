@@ -1,5 +1,5 @@
 import ShopActionTypes from "./shop.types";
-import SHOP_DATA from "./shopdata";
+
 const INITIAL_STATE={
 
     collections : null

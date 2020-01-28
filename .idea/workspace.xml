@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f147712-ffc3-4863-a18e-4362051bb733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/with_spinner/with_spinner.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/with_spinner/with_spinner.styled.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection_preview/collection_preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection_preview/collection_preview.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection_preview/collection_preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection_preview/collection_preview.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collections_overview/collections_overview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collections_overview/collections_overview.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/shoppage/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shoppage/shop.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selector.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +106,8 @@
       <workItem from="1579687820834" duration="4276000" />
       <workItem from="1579703565023" duration="618000" />
       <workItem from="1579770466082" duration="16693000" />
-      <workItem from="1580123132377" duration="2694000" />
+      <workItem from="1580123132377" duration="3419000" />
+      <workItem from="1580208926058" duration="1105000" />
     </task>
     <servers />
   </component>
