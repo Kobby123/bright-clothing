@@ -1,17 +1,16 @@
 import React from 'react';
 
-import CollectionsOverview from "../../components/collections_overview/collections_overview.component";
+import CollectionsOverviewContainer from "../../components/collections_overview/collections_overview.container";
 
 import {Route} from 'react-router-dom';
 import './shop.styles.scss'
-import CollectionPage from "../collection/collection.component";
-import {convertCollectionsSnapshotDocsToMap, firestore} from "../../firebase/firebase.utils";
-import {updateCollection} from "../../redux/shop/shop.action";
-import {connect} from "react-redux";
-import WithSpinner from "../../components/with_spinner/with_spinner.component";
+import CollectionsContainer from "../collection/collection.container";
 
-const CollectionsOverviewWithSpinner = WithSpinner(CollectionsOverview);
-const CollectionsPageWithSpinner     = WithSpinner(CollectionPage);
+import {connect} from "react-redux";
+
+import {fetchCollectionsStart} from "../../redux/shop/shop.action";
+
+
 
 class ShopPage extends React.Component {
     state ={
@@ -21,8 +20,8 @@ class ShopPage extends React.Component {
     unsubscribeFromSnapShot = null;
 
     componentDidMount() {
-        const {updateCollection} = this.props;
-        const collectionRef = firestore.collection('collection');
+        const {fetchCollectionsStart} = this.props;
+        fetchCollectionsStart();
 
         /*OBSERVABLE PATTERN*/
         // collectionRef.onSnapshot(  snapshot =>
@@ -34,42 +33,29 @@ class ShopPage extends React.Component {
         //      }
         // );
 
-
-        /*NATIVE FETCH PATTERN*/
-        collectionRef.get().then( snapshot =>
-             {
-                 const collectionsMap = convertCollectionsSnapshotDocsToMap(snapshot);
-                 updateCollection(collectionsMap);
-                 this.setState({loading :false})
-
-             }
-        );
-
-
     }
 
     render() {
         const {match} = this.props;
-        const {loading} = this.state;
         return  (
             <div className="shop-page">
                 <Route
                     exact
                     path={`${match.path}`}
-                    render={(props)=> <CollectionsOverviewWithSpinner isLoading={loading} {...props}/>
-                }/>
+                    component={CollectionsOverviewContainer}/>
                 <Route
                     path={`${match.path}/:collectionId`}
-                    render={(props)=> <CollectionsPageWithSpinner isLoading={loading} {...props}/>}/>
+                    component={CollectionsContainer}/>
             </div>
         )
     }
 }
 
 
+
 const mapDispatchToProps = dispatch => (
     {
-        updateCollection : (collectionMap) => dispatch(updateCollection(collectionMap))
+        fetchCollectionsStart : () => dispatch(fetchCollectionsStart())
     }
 );
 
